@@ -1,0 +1,105 @@
+.scavenger-hunt-leaderboard-item strong {
+    
+    color: #00f;
+    display: inline-block;
+    
+}
+
+.scavenger-hunt-leaderboard-item > span {
+    font-weight: bold;
+}
+
+
+/* Titul.us
+/*
+ * Titul.us
+ * Developed by Complexity Group
+ * Coders: @5h1rU and @JustJuanK
+ * Version 0.1
+ * This is part of titulus.css
+ * Be a Ninja Guy! Hell Yeah!!
+ * */
+
+/* ----------Keyframes---------- */
+@-webkit-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-moz-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-ms-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-o-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+} 
+
+* Developed by Complexity Group
+ * Coders: @5h1rU and @JustJuanca
+ * Be a Ninja Guy! Hell Yeah!!
+ * Version 0.1
+ * */
+
+
+/* -moz- equivalent to Firefox 
+*  -webkit- equivalent to Safari, Chrome
+*  -o- equivalent to Opera 
+*  -ms- equivalent to IE 9 */
+
+@import url("keyframes.css");
+
+
+	/* ---- translation animations */
+.levitate{
+	-webkit-animation: floating 3s infinite linear;
+	-moz-animation: floating 3s infinite linear;
+	-ms-animation: floating 3s infinite linear;
+	-o-animation: floating 3s infinite linear;
+	position: relative;
+}
+
+.prizeIcon {
+    position: relative;
+    top: 1px;
+}
+
+.prizeCount {
+    position: relative;
+    bottom: 9px;
+    left: 5px;
+    background: #ff7500;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.prizeBag {
+    text-align: center;
+        margin-top: 8px;
+}
+
+.prizeCountContainer {
+    display: inline;
+}
+
+.prizeBag, .scavengerPrize {
+ cursor: pointer;   
+}
